@@ -1,0 +1,11 @@
+admin
+user
+test
+guest
+root
+msfadmin
+support
+manager
+joao
+maria
+carlos
