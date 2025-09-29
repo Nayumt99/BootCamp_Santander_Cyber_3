@@ -4,7 +4,7 @@
   <img src="https://assets.dio.me/C_w739DMTY1XPvnkcaSY7doWFM9I5MREIuft-gfwJDY/f:webp/h:120/q:80/L3RyYWNrcy83MGI2Y2EwOC0xZDdlLTQxNTctYmI0OC05NmMxMTY0ZmQ3ZTcucG5n" alt="Logo/Banner do Bootcamp Cibersegurança">
 </p>
 
-Este repositório documenta a execução do Desafio de Projeto prático do **Bootcamp Santander Code Girls - Cyber Security Expert (DIO)**. O foco é simular e documentar um cenário de **ataque de força bruta** contra diferentes serviços, utilizando o **Kali Linux** e a ferramenta **Medusa** em um ambiente de laboratório controlado.
+Este repositório documenta a execução do Desafio de Projeto prático do **Bootcamp Santander - Cibersegurança 2025**. O foco é simular e documentar um cenário de **ataque de força bruta** contra diferentes serviços, utilizando o **Kali Linux** e a ferramenta **Medusa** em um ambiente de laboratório controlado.
 
 O objetivo principal é exercitar a mentalidade de auditoria de segurança (Hacking Ético) e propor medidas eficazes de prevenção.
 
