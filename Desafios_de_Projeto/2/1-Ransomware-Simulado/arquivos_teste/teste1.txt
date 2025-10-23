@@ -1,0 +1,2 @@
+Este é o primeiro arquivo de teste.
+Se esta mensagem estiver criptografada, o ransomware simulado funcionou!
